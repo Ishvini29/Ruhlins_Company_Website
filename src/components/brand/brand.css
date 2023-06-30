@@ -1,0 +1,24 @@
+.gpt3__brand div {
+    color: rgb(118, 171, 218);
+    font-family: var(--font-family);
+    background: #5d627596;
+    border-radius: 10px;
+    height: 50px;
+}
+
+.move-right {
+    animation-name: moveRight;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes moveRight {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(570px);
+    }
+}
